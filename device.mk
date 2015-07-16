@@ -83,14 +83,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     calmodule.cfg \
     libcalmodule_akm.so \
-    libcalmodule_common
+    libcalmodule_common \
+    sensors.msm8916
 
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.lettuce.diag.rc \
-    init.target.rc \
-    init.qcom.usb.rc \
-    ueventd.qcom.rc
+    init.target.rc
 
 # Recovery
 PRODUCT_EXTRA_RECOVERY_KEYS += \
