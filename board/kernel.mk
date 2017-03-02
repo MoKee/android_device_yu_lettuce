@@ -1,2 +1,2 @@
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_lettuce_defconfig
+TARGET_KERNEL_CONFIG := mokee_lettuce_defconfig
